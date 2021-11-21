@@ -1,0 +1,48 @@
+
+            body {
+                background:linear-gradient(lightblue 65%, hsl(30 40% 40%) 10%);
+                display:flex;
+                justify-content:center;
+                align-items:center;
+                flex-direction:column;
+            }
+            .center.outer {
+                border-radius:10%;
+                display:inherit;
+                align-items:center;
+                justify-content:center;
+                position:relative;
+                background:linear-gradient(156deg, grey, hsl(0 0% 15%) 20%);
+                width:40vw;
+                height:60vw;
+            }
+            .center.inner {
+                border-radius:40%;
+                width:50%;
+                height:20vw;
+                background:linear-gradient(153.6deg ,red, darkred 35%);
+            }
+            .inner:hover {
+                transition:border 0.06s ease-in-out;
+                cursor:pointer;
+            }
+            .inner:active {
+                box-sizing:border-box;
+                border:4px solid hsl(0 80% 10%);
+            }
+            /*blue the background and skew the shadow*/
+            .shadow {
+                bottom:0;
+                filter:blur(5px);
+                z-index:-1;
+                width:inherit;
+                position:absolute;
+                height:10vw;
+                background:grey;
+                transform:skew(74deg) translateX(-50%);
+            }
+            img {
+                height:100%;
+                width:100%;
+                display:none;
+            }
