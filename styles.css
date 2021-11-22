@@ -1,6 +1,9 @@
 
             body {
-                background:linear-gradient(lightblue 65%, hsl(30 40% 40%) 10%);
+                overflow: hidden;
+                height:100vh;
+                width: 100vw;
+                background:linear-gradient(lightblue 70%, hsl(30 40% 40%) 0%);
                 display:flex;
                 justify-content:center;
                 align-items:center;
@@ -13,13 +16,13 @@
                 justify-content:center;
                 position:relative;
                 background:linear-gradient(-156deg, grey, hsl(0 0% 15%) 20%);
-                width:40vw;
-                height:60vw;
+                width:30vw;
+                height:50vw;
             }
             .center.inner {
                 border-radius:40%;
                 width:50%;
-                height:20vw;
+                height:15vw;
                 background:linear-gradient(-153.6deg ,red, darkred 35%);
             }
             .inner:hover {
@@ -37,9 +40,12 @@
                 z-index:-1;
                 width:inherit;
                 position:absolute;
-                height:10vw;
                 background:grey;
-                transform:skew(74deg) translateX(-50%);
+/*                
+                height:5vw;
+                transform:skew(80deg) translateX(-50%);*/
+                /*height:5vw;
+                transform:skew(60deg) translateX(-30%);*/
             }
             img {
                 height:100%;
