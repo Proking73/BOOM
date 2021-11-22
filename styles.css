@@ -44,8 +44,8 @@
 /*                
                 height:5vw;
                 transform:skew(80deg) translateX(-50%);*/
-                /*height:5vw;
-                transform:skew(60deg) translateX(-30%);*/
+                height:5vw;
+                transform:skew(60deg) translateX(-30%);
             }
             img {
                 height:100%;
