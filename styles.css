@@ -10,7 +10,7 @@
                 flex-direction:column;
             }
             .center.outer {
-                top: 10%;
+                top: 5%;
                 border-radius:10%;
                 display:inherit;
                 align-items:center;
@@ -53,3 +53,9 @@
                 width:100%;
                 display:none;
             }
+            @media only screen and (max-width: 100px) {
+                html {
+                    background-color: green;
+                    z-index: 10000000;
+                }
+              }
