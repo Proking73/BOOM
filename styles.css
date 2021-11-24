@@ -10,6 +10,7 @@
                 flex-direction:column;
             }
             .center.outer {
+                top: 10%;
                 border-radius:10%;
                 display:inherit;
                 align-items:center;
@@ -41,9 +42,9 @@
                 width:inherit;
                 position:absolute;
                 background:grey;
-/*                
+
                 height:5vw;
-                transform:skew(80deg) translateX(-50%);*/
+                transform:skew(80deg) translateX(-50%);
                 /*height:5vw;
                 transform:skew(60deg) translateX(-30%);*/
             }
