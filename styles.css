@@ -33,7 +33,7 @@
             }
             .inner:active {
                 box-sizing:border-box;
-                border:4px solid hsl(0 80% 10%);
+                border:0.6vw solid hsl(0 80% 10%);
             }
             /*blue the background and skew the shadow*/
             .shadow {
