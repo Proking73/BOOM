@@ -10,7 +10,8 @@
                 flex-direction:column;
             }
             .center.outer {
-                top: 5%;
+                        
+                bottom: 5%;
                 border-radius:10%;
                 display:inherit;
                 align-items:center;
