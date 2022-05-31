@@ -35,7 +35,6 @@
                 box-sizing:border-box;
                 border:0.6vw solid hsl(0 80% 10%);
             }
-            /*blue the background and skew the shadow*/
             .shadow {
                 bottom:0;
                 filter:blur(5px);
